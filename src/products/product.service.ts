@@ -1,9 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import {products} from "../products.db";
-import {ProductEntity, BrandEntity} from "../interfaces.db";
+import {products} from "../../products.db";
+import {ProductEntity, BrandEntity} from "../../interfaces.db";
 import { brands } from 'brands.db';
 import { error } from 'console';
-
 
 
 @Injectable()
